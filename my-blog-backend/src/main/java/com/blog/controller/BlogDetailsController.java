@@ -20,9 +20,11 @@ public class BlogDetailsController {
 
     @GetMapping("/getAll")
     public List<BlogDetails> getAll() {
+        log.info("============ Get All Method Start ============");
         log.info("getAll() -> | ");
         List<BlogDetails> all = service.getAll();
         log.info("getAll() -> | List BlogDetails : {}",all);
+        log.info("============ Get All Method End ============");
         return all;
     }
 
