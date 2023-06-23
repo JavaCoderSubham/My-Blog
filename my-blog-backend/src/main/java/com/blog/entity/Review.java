@@ -16,7 +16,11 @@ public class Review {
     private String id;
     private String postId;
     private String mobileNumber;
+<<<<<<< HEAD
     private Long views;     // It Go to blogDetails entity class TODO
+=======
+    private Long views;     // Review Can't view Change this functionality
+>>>>>>> origin/main
     private Integer rating;
     private String comment;
 
