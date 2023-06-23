@@ -16,7 +16,7 @@ public class Review {
     private String id;
     private String postId;
     private String mobileNumber;
-    private Long views;
+    private Long views;     // Review Can't view Change this functionality
     private Integer rating;
     private String comment;
 
